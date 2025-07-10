@@ -19,8 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Riftfox\\Wechat\\AccessToken\\": "src/",
-      "Riftfox\\Wechat\\AccessToken\\tests": "tests/"
+      "Riftfox\\Wechat\\AccessToken\\": "src/"
     }
   }
 }
