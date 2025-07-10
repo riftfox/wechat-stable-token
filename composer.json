@@ -1,0 +1,14 @@
+{
+  "name": "riftfox/wechat-stable-token",
+  "description": "微信供公众号/服务号获取稳定版接口调用凭据SDK",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Riftfox",
+      "email": "riftfox@riftfox.com"
+    }
+  ],
+  "require": {
+  }
+}
