@@ -41,7 +41,6 @@ class StableTokenProvider extends TokenProvider implements TokenProviderInterfac
             'secret' => $application->getAppSecret(),
             'force_refresh' => $forceRefresh
         ]);
-        $request->withBody($this->streamFactory->createStream($body));
-        return $request;
+        return $request->withBody($this->streamFactory->createStream($body));
     }
 }
